@@ -16,13 +16,13 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route exact path="/" element={<Login/>} />
-      <Route path="/Login" element={<Login/>} />
-      <Route path="/Accueil" element={<Accueil/>} />
-      <Route path="/UpdateEnchere" element={<UpdateEnchere/>} />
-      <Route path="/Historique" element={<Historique/>} />
-      <Route path="/HistoriqueDetails" element={<HistoriqueDetails/>} />
-      <Route path="/State" element={<State/>} />
-      <Route path="/Recharge" element={<Recharge/>} />
+      <Route exact path="/Login" element={<Login/>} />
+      <Route exact path="/Accueil" element={<Accueil/>} />
+      <Route exact path="/UpdateEnchere" element={<UpdateEnchere/>} />
+      <Route exact path="/Historique" element={<Historique/>} />
+      <Route exact path="/HistoriqueDetails" element={<HistoriqueDetails/>} />
+      <Route exact path="/State" element={<State/>} />
+      <Route exact path="/Recharge" element={<Recharge/>} />
     </Routes>
   </BrowserRouter>
 );
