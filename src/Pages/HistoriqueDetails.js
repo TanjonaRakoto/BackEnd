@@ -20,7 +20,7 @@ function HistoriqueDetails() {
                 console.error(error);
             }
         )
-    },[])
+    },[idEnchere])
 
     return(
         <div>
